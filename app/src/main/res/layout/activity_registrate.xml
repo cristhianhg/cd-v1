@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Registrate">
 
     <ImageView
         android:layout_width="match_parent"
@@ -26,7 +26,37 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/Correo_electronico"
+            android:id="@+id/et_nombre"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#000"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_telefono"
+            android:hint="Numero de telefono"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#000"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_correo"
             android:hint="Correo electronico"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="10dp"
@@ -38,6 +68,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textColorHint="#000"></EditText>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,24 +84,16 @@
             android:paddingBottom="10dp"
             android:textColorHint="#000"
             android:inputType="textPassword"></EditText>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:gravity="end"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="30dp"
-            android:text="¿Olvidaste tu contraseña?"></TextView>
+
         <Button
-            android:id="@+id/inciar_sesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
+            android:id="@+id/crear_cuenta"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/btn_fondo_color"
-            android:text="Iniciar Sesión"
+            android:text="Crear Cuenta"
             android:textColor="#000"
             android:textSize="16sp"
             android:elevation="5dp"></Button>
@@ -85,14 +108,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="¿Aun no tienes cuenta?"
+                android:text="¿Ya tienes Cuenta?"
                 android:textSize="16sp"
                 android:textColor="#000"></TextView>
             <Button
-                android:id="@+id/btn_ir_crearCuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CREAR CUENTA"
+                android:id="@+id/btn_in_inicioSesion"
+                android:text="INICIAR SESION"
                 android:background="@android:color/transparent"
                 android:layout_marginLeft="10dp"
                 android:textColor="#000"></Button>
