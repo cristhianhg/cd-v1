@@ -62,18 +62,19 @@
             android:layout_marginRight="25dp"
             android:layout_marginBottom="30dp"
             android:text="¿Olvidaste tu contraseña?"></TextView>
+
         <Button
             android:id="@+id/inciar_sesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/btn_fondo_color"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_redondedo_naranja"
+            android:elevation="5dp"
             android:text="Iniciar Sesión"
             android:textColor="#000"
-            android:textSize="16sp"
-            android:elevation="5dp"></Button>
+            android:textSize="16sp"></Button>
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
@@ -98,7 +99,6 @@
                 android:textColor="#000"></Button>
 
         </LinearLayout>
-
-
+        
     </LinearLayout>
 </RelativeLayout>
