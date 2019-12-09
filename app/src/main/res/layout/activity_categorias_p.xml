@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CategoriasP">
-
 
 
     <ImageView
@@ -20,79 +19,103 @@
         android:orientation="vertical"
         android:layout_height="match_parent">
 
-        <ImageButton
-            android:layout_width="45dp"
-            android:layout_height="wrap_content"
-            android:background="?attr/actionModeCloseDrawable"></ImageButton>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CATEGORIAS">
-
-        </TextView>
-        <ImageButton
-            android:layout_width="399dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="50dp"
-            android:src="@drawable/ic_chocolate"></ImageButton>
-        <ImageButton
-            android:layout_width="399dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="50dp"
-            android:src="@drawable/ic_galletas"></ImageButton>
-        <ImageButton
-            android:layout_width="399dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="50dp"
-            android:src="@drawable/ic_caramelos"></ImageButton>
-        <ImageButton
-            android:layout_width="399dp"
-            android:layout_height="100dp"
-            android:layout_marginBottom="50dp"
-            android:src="@drawable/ic_logocd"></ImageButton>
-
-
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
             android:gravity="center"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#ff8000">
 
 
             <Button
-                android:id="@+id/btn_ir_crearCuenta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CREAR CUENTA"
-                android:background="@android:color/transparent"
-                android:layout_marginLeft="10dp"
+                android:id="@+id/btn_inicio"
+                android:layout_width="64dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/inicio"
+
+                android:textColor="#000"></Button>
+
+            <Button
+                android:id="@+id/btn_perfil"
+                android:layout_width="60dp"
+                android:layout_height="54dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/perfil"
+                android:textColor="#000"></Button>
+
+            <Button
+                android:id="@+id/btn_buscar"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/buscar"
+                android:textColor="#000"></Button>
+
+            <Button
+                android:id="@+id/btn_carrito"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="4dp"
+                android:layout_margintTop="4dp"
+                android:background="@drawable/carrito"
+
                 android:textColor="#000"></Button>
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:text="  CATEGORIAS">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:text="asdasdasd"
+            android:src="@drawable/chocolate"></ImageButton>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/caramelos"></ImageButton>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/galletas"></ImageButton>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/pasteles"></ImageButton>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/bebidas"></ImageButton>
+
 
     </LinearLayout>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
 
 
