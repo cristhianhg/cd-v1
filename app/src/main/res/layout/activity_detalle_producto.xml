@@ -21,8 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"
-            android:layout_marginRight="0dp"
-            android:layout_marginLeft="0dp"
+
             android:gravity="center"
             android:layout_height="wrap_content"
             android:background="#ff8000">
@@ -71,188 +70,139 @@
                 android:textColor="#000"></Button>
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginRight="0dp"
-            android:layout_marginLeft="0dp"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            >
 
 
-            <Button
-                android:id="@+id/btn_inicio"
-                android:layout_width="wrap_content"
-                android:layout_height="55dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginRight="18dp"
-                android:layout_marginBottom="4dp"
-                android:text="OFERTAS"
+        <ImageView
 
-                android:textColor="#000"></Button>
-
-            <Button
-                android:id="@+id/btn_perfil"
-                android:layout_width="wrap_content"
-                android:layout_height="54dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginRight="18dp"
-                android:layout_marginBottom="4dp"
-                android:text="CATEGORIAS"
-                android:textColor="#000"></Button>
-
-            <Button
-                android:id="@+id/btn_buscar"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
-                android:layout_marginRight="18dp"
-                android:layout_marginBottom="4dp"
-                android:text="POPULAR"
-                android:textColor="#000"></Button>
-        </LinearLayout>
-
-        <ViewFlipper
-            android:id="@+id/v_flipper"
-            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
             android:layout_height="200dp">
 
-        </ViewFlipper>
+        </ImageView>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Picaras Chocolate x6 unid"></TextView>
+
+        <android.widget.NumberPicker
+            android:id="@+id/numberPicker1"
+            android:layout_width="44dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"></android.widget.NumberPicker>
+
+        <Button
+            android:id="@+id/inciar_sesion"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_redondedo_naranja"
+            android:text="Agregar al carrito"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Detalles del producto"></TextView>
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginRight="0dp"
-            android:layout_marginLeft="0dp"
-            android:gravity="center"
             android:layout_height="wrap_content"
-            >
+            android:orientation="vertical">
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/prod1"
-
-                    android:layout_width="169dp"
-                    android:layout_height="149dp"
-                    android:layout_marginLeft="4dp"
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="38dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginRight="18dp"
                     android:layout_marginBottom="4dp"
-                    android:background="@drawable/oreoprod">
-
-                </Button>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="S/.10.00"
-                    android:textColor="#000"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:text="Peso :"
                     android:textColor="#000"
-                    android:text="OREO Chocolate x 10 unid"></TextView>
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="240gr"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/prod2"
-                    android:layout_width="169dp"
-                    android:layout_height="149dp"
-                    android:layout_marginLeft="4dp"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginRight="18dp"
                     android:layout_marginBottom="4dp"
-                    android:background="@drawable/picaras">
+                    android:text="Unidades :"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
 
-                </Button>
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="98dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="6"
                     android:textColor="#000"
-                    android:text="S/.9.00"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:text="Picaras Chocolate x 6 unid"></TextView>
+                    android:textSize="20dp"></TextView>
+
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="91dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Sabor :"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Chocolate"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginRight="0dp"
-            android:layout_marginLeft="0dp"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            >
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/prod3"
-                    android:layout_width="169dp"
-                    android:layout_height="149dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginRight="18dp"
-                    android:layout_marginBottom="4dp"
-                    android:background="@drawable/pionos">
-
-                </Button>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:text="S/.9.00"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:text="Alfajores Dulcezi x 24 unid"></TextView>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/prod4"
-                    android:layout_width="169dp"
-                    android:layout_height="149dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginRight="18dp"
-                    android:layout_marginBottom="4dp"
-                    android:background="@drawable/halls">
-
-                </Button>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:text="S/.8.00"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#000"
-                    android:text="Halls Azul"></TextView>
-            </LinearLayout>
-
-        </LinearLayout>
-
     </LinearLayout>
 
 
