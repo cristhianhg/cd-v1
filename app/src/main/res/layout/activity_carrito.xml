@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carrito">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#ff8000">
+
+
+        <Button
+            android:id="@+id/btn_iniciot"
+            android:layout_width="64dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/inicio"
+
+            android:textColor="#000"></Button>
+
+        <Button
+            android:id="@+id/btn_perfilt"
+            android:layout_width="60dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/perfil"
+            android:textColor="#000"></Button>
+
+        <Button
+            android:id="@+id/btn_buscart"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/buscar"
+            android:textColor="#000"></Button>
+
+        <Button
+            android:id="@+id/btn_carritot"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_margintTop="4dp"
+            android:background="@drawable/carrito"
+
+            android:textColor="#000"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Carrito"
+            android:textColor="@color/black"
+            android:textSize="25dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:layout_weight="2"
+                android:background="@drawable/chocman">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chocman Doble Manjar"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x 6 unid"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Precio : S/10.00"
+                    android:textColor="#0000ff">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/star_big_on"
+                        android:text=""></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/glacitas">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Glacitas sabor fresa"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="x 6 unid"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio : S/9.00"
+                        android:textColor="#0000ff">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/star_big_on"
+                            android:text=""></Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="25"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="2">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Picaras Chocolate"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="x 6 unid"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Precio : S/11.00"
+                        android:textColor="#0000ff">
+
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            style="@style/Widget.AppCompat.Button.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/star_big_on"
+                            android:text=""></Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Total Producto :"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="240gr"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Unidades :"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="6"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Unidades :"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Chocolate"
+                    android:textColor="#000"
+                    android:textSize="20dp"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
