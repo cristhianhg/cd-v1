@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".Tienda"></activity>
 =======
         <activity android:name=".CategoriasP"></activity>
 >>>>>>> dev.v1.1
+=======
+        <activity android:name=".Carrito"></activity>
+>>>>>>> dev.v2.1
         <activity android:name=".Registrate" />
         <activity android:name=".Login" />
+        <activity android:name=".DetalleProducto" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
