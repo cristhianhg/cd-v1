@@ -9,15 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-        <activity android:name=".Tienda"></activity>
-=======
-        <activity android:name=".CategoriasP"></activity>
->>>>>>> dev.v1.1
-=======
-        <activity android:name=".Carrito"></activity>
->>>>>>> dev.v2.1
+        <activity android:name=".CatChocolates"></activity>
+        <activity android:name=".Tienda" />
+        <activity android:name=".CategoriasP" />
+        <activity android:name=".Carrito" />
         <activity android:name=".Registrate" />
         <activity android:name=".Login" />
         <activity android:name=".DetalleProducto" />
