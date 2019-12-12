@@ -65,7 +65,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="4dp"
-                android:layout_margintTop="4dp"
+
                 android:background="@drawable/carrito"
 
                 android:textColor="#000"></Button>
