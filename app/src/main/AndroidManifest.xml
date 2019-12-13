@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".catCaramelos"></activity>
         <activity android:name=".CatChocolates" />
         <activity android:name=".Tienda" />
@@ -18,12 +19,23 @@
         <activity android:name=".Login" />
         <activity android:name=".DetalleProducto" />
         <activity android:name=".MainActivity">
+=======
+        <activity android:name=".SplashScreen">
+
+>>>>>>> dev.v3.2
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+    <activity android:name=".Tienda" ></activity>
+    <activity android:name=".CategoriasP" ></activity>
+    <activity android:name=".Carrito"></activity>
+    <activity android:name=".Registrate" ></activity>
+    <activity android:name=".Login" ></activity>
+    <activity android:name=".DetalleProducto" ></activity>
+    <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
