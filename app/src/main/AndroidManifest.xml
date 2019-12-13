@@ -28,5 +28,5 @@
     <activity android:name=".DetalleProducto" ></activity>
     <activity android:name=".MainActivity"></activity>
     </application>
-
+//Revision
 </manifest>
