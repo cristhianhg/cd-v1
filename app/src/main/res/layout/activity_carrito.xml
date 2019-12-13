@@ -15,7 +15,7 @@
 
 
         <Button
-            android:id="@+id/btn_iniciot"
+            android:id="@+id/btn_inicio"
             android:layout_width="64dp"
             android:layout_height="55dp"
             android:layout_marginRight="18dp"
@@ -46,7 +46,7 @@
             android:textColor="#000"></Button>
 
         <Button
-            android:id="@+id/btn_carritot"
+            android:id="@+id/btn_carrito"
             android:layout_width="66dp"
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"

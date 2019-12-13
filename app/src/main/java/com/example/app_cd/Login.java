@@ -27,6 +27,13 @@ public class Login extends AppCompatActivity {
                 finish();
             }
         });
+        iniciar_sesion.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(Login.this,Tienda.class));
+                finish();
+            }
+        });
 
         iniciar_sesion.setOnClickListener(new View.OnClickListener(){
             @Override

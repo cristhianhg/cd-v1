@@ -82,18 +82,22 @@
 
         </TextView>
 
-        <ImageButton
+        <Button
+            android:id="@+id/btn_chocolates"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginBottom="8dp"
-            android:text="asdasdasd"
-            android:src="@drawable/chocolate"></ImageButton>
 
-        <ImageButton
+            android:background="@drawable/chocolate"
+            android:src="@drawable/chocolate"></Button>
+
+        <Button
+            android:id="@+id/btn_caramelos"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/caramelos"></ImageButton>
+            android:background="@drawable/caramelos"
+            android:src="@drawable/caramelos"></Button>
 
         <ImageButton
             android:layout_width="match_parent"
